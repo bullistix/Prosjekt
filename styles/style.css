@@ -133,12 +133,20 @@ body{
 *
 ***************************************/
 
-.btn-lg{
+a.button{
     background-color: lightblue;
-    font-size: 1em;
+    font-size: 3em;
     border-radius: 8px;
+    -webkitkit-appearence:button;
+    appearence:button;
+    border-style: solid;
+    border-color: gray;
+    background-color: gray;
+    text-decoration: none;
+    margin-bottom: 2em;
+    
 }
-.btn-lg:hover {
+a.button:hover {
     background-color:coral;
 }
 /**************************************
