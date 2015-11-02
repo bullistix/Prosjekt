@@ -35,6 +35,8 @@ body{
     }
     #menu a:hover{
     text-decoration: underline;
+    border-style: solid;
+    border-color: white;
     }
 /***************************************
 *
