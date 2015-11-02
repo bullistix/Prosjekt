@@ -87,6 +87,11 @@ body{
     margin-right:25%;
     margin-top: 4em;
 }
+#profile-text{
+    overflow: hidden;
+    display: inline-block;
+}
+
 #contactinfo{
     float: left;
     padding-left:10%;
@@ -125,6 +130,12 @@ body{
     height: 10em;
     width: 10em;
 }
+.rounded-profile{
+    border-radius: 50%;
+    margin-left: 35%;
+    overflow: hidden;
+    display: inline-block;
+}
 ul{
     text-align: center;
     margin:0;
@@ -143,15 +154,4 @@ h2{
     text-align: center;
     
 }
-/**************************************
-*
-*
-*photos
-*
-***************************************/
-#profilepicture{
-    position: absolute;
-    top: 500px;
-    left: 300px;
-    
-}
+
