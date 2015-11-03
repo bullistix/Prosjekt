@@ -11,13 +11,14 @@ body{
 ***********************************************/
 
     #menu{
+    position:fixed;
     color:black;
-    width:auto;
+    width:100%;
     padding:0;
     margin:0;
     display: block;
     text-align: center;
-    overflow: hidden;
+    overflow:hidden;
     background-color: purple;
     padding-bottom: 2em;
     padding-top: 3em;
@@ -91,6 +92,7 @@ body{
 **************************************/
 
 #content{
+    padding-top: 10em;
     text-align: center;
     border-left: solid;
     border-right:solid;
@@ -109,11 +111,7 @@ body{
 #main-content{
     margin-left: 25%;
     margin-right:25%;
-<<<<<<< HEAD
-    margin-top: 4em;
-    
-=======
->>>>>>> origin/master
+    margin-top: 0em;   
 }
 #profile-text{
     overflow: hidden;
@@ -122,6 +120,7 @@ body{
     text-align: none;
 }
 #profile-content{
+    padding-top: 10em;
     border-left: solid;
     border-right:solid;
     border-left-width: 1px;
