@@ -181,6 +181,12 @@ ul{
 li{
     text-align: center;
 }
+.e-img:hover{
+    opacity: 0.5;
+    border-bottom: solid;
+    
+}
+
 /**************************************
 *
 *
