@@ -129,6 +129,38 @@ body{
     margin-left:15%;
     background-color: white;
     }
+@media screen and (max-width:1250px){
+    table,td,tr{
+        display:inline-block;        
+    }
+    
+}
+@media screen and (max-width:810px){
+    #menu a{
+        
+        font-size: 16px;
+    }
+}
+    @media screen and (max-width:656px){
+    #menu a{
+        
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width:400px){
+    a,#menu, #menu a{
+        display: block;
+        padding-bottom: 0;
+        padding-top: 0;
+        border-left: none;
+        font-size: 22px;
+        
+    }
+    
+}
+
+    
 
 /**************************************
 *
