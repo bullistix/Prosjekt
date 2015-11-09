@@ -131,7 +131,7 @@ body{
     }
 @media screen and (max-width:1250px){
     table,td,tr{
-        display:inline-block;        
+        display:inline-block;    
     }
     
 }
@@ -148,13 +148,15 @@ body{
     }
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:579px){
     a,#menu, #menu a{
         display: block;
         padding-bottom: 0;
         padding-top: 0;
         border-left: none;
-        font-size: 22px;
+        font-size: 16px;
+        
+        
         
     }
     
@@ -171,19 +173,20 @@ body{
 
 a.button{
     background-color: lightblue;
-    font-size: 3em;
     border-radius: 8px;
     -webkitkit-appearence:button;
     appearence:button;
     border-style: solid;
-    border-color: gray;
-    background-color: gray;
+    border-color: deepskyblue;
+    background-color: deepskyblue;
     text-decoration: none;
     margin-bottom: 2em;
     
 }
 a.button:hover {
-    background-color:coral;
+    background-color:darkblue;
+    border-color: darkblue;
+    
 }
 /**************************************
 *
