@@ -130,7 +130,7 @@ body{
     background-color: white;
     }
 @media screen and (max-width:1250px){
-    table,td,tr{
+    exercise-table,ex-td,ex-tr{
         display:inline-block;    
     }
     
