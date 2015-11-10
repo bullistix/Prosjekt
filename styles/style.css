@@ -2,7 +2,7 @@
         margin:0;
         padding:0;
         border:0;
-        background-color: gray;
+        background-color: darkgray;
     }
     /**********************************************
     *
@@ -19,7 +19,7 @@
         display: block;
         text-align: center;
         overflow:hidden;
-        background-color: purple;
+        background-color: black;
         padding-bottom: 2em;
         padding-top: 3em;
         } 
@@ -27,7 +27,7 @@
         #menu a{ 
         padding-left:5%;
         padding-right:5%;
-        color: white;
+        color: orange;
         text-decoration: none;
         text-align: center;
         border-left: solid;
@@ -89,23 +89,18 @@
 }
     @media screen and (max-width:1250px){
     
-       /* table,td,tr{
-            display:inline-block;   
-        }*/
         .exercise-table, .ex-td,.ex-tr{
-            display:inline-block;    
-    
+            display:inline-block;
         }
         
     }
     @media screen and (max-width:810px){
         #menu a{
-            
             font-size: 20px;
         }
     }
     @media screen and (max-width:656px){
-        a,#menu, #menu a, h1.head-title-article{
+        a,#menu, #menu a{
             display: block;
             padding-bottom: 0;
             padding-top: 0;
