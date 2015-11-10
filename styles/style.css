@@ -130,7 +130,6 @@
     a.button{
         background-color: lightblue;
         border-radius: 8px;
-        -webkitkit-appearence:button;
         appearence:button;
         border-style: none;
         border-color: deepskyblue;
