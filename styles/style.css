@@ -84,9 +84,8 @@
         margin-left:15%;
         background-color: white;
         }
-
-    #profile-text ul,li{
-    color: black;
+#profile-text li,ul{
+    color:black;
 }
     @media screen and (max-width:1250px){
     
@@ -171,11 +170,11 @@
         text-align: center;
         margin:0;
         list-style-type: none;
-        color: black;
+        color: white;
     }
     li{
         text-align: center;
-        color: black;
+        color: white;
     }
     .e-img:hover{
         opacity: 0.5;
@@ -261,6 +260,7 @@
         border:0;
         background-color: purple;
         
+        
     }
     #sub-menu ul,li{ 
         float: center;
@@ -268,7 +268,6 @@
         margin-left:0;
         display: block;
         overflow: hidden;
-        color: white;
         
     }
     #footer{
