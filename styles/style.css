@@ -151,6 +151,22 @@
         border-color: darkblue;
         
     }
+.achievementname{
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    height: fixed;
+    height: 2em;
+    margin-left: 10%;
+}
+.achievementbox{
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    height: fixed;
+    height: 96px;
+    margin-left:10%;
+}
     /**************************************
     *
     *
