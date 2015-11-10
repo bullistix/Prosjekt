@@ -100,6 +100,9 @@
 #profile-text li,ul{
     color:black;
 }
+#shared-images{
+    text-align: center;
+}
     @media screen and (max-width:1250px){
     
         .exercise-table, .ex-td,.ex-tr{
