@@ -38,54 +38,7 @@
         #menu a:hover{
         text-decoration: underline;
         }
-    /***************************************
-    *
-    *
-    * footer menu
-    *
-    **************************************/
     
-    #sub-menu{
-        color:black;
-        width:auto;
-        margin:0;
-        border:0;
-        text-align: center;
-        background-color: purple;
-        padding-top: 0em;
-        padding-bottom:8em;
-        
-    }
-    #sub-menu ul{ 
-        color: white;
-        text-align: center;
-        float: left;
-        margin-left: 37%;
-        
-    }
-    #footer{
-        margin:auto;
-        border:auto;
-        bottom:auto;
-        display:block;
-        }
-    /*#contactinfo{
-        float: left;
-        padding-left:10%;
-        padding-right: 18%;
-    }
-    
-    #newsletter{
-        align-content:center;
-        float:left;
-        overflow: hidden;
-        
-    }
-    #partners{
-        float: right;
-        padding-right:15%;
-        overflow: hidden;
-    }*/
     /***************************************
     *
     *
@@ -136,7 +89,7 @@
         table,td,tr{
             display:inline-block;   
         }
-        .exercise-table,ex-td,ex-tr{
+        .exercise-table, ex-td,ex-tr{
             display:inline-block;    
     
         }
@@ -179,7 +132,7 @@
         border-radius: 8px;
         -webkitkit-appearence:button;
         appearence:button;
-        border-style: solid;
+        border-style: none;
         border-color: deepskyblue;
         background-color: deepskyblue;
         text-decoration: none;
@@ -290,4 +243,39 @@
         text-align: left;
        
     }
+    /***************************************
+    *
+    *
+    * footer menu
+    *
+    **************************************/
     
+    #sub-menu{
+        width:auto;
+        margin:0;
+        border:0;
+        background-color: purple;
+        
+        
+    }
+    #sub-menu ul,li{ 
+        color: white;
+        float: center;
+        text-align: center;
+        margin-left:0;
+        display: block;
+        overflow: hidden;
+        
+    }
+    #footer{
+        margin:auto;
+        border:auto;
+        bottom:auto;
+        display:block;
+        }
+    /***************************************
+    *
+    *
+    * End
+    *
+    **************************************/
