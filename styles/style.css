@@ -33,9 +33,9 @@
         text-align: center;
         overflow:hidden;
         background-color: black;
-        padding-bottom: 2em;
-        padding-top: 3em;
-        font-size: 1em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        font-size: 2em;
 }
         #menu a{ 
         padding-left:5%;
