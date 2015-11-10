@@ -101,23 +101,16 @@
     @media screen and (max-width:810px){
         #menu a{
             
-            font-size: 16px;
+            font-size: 20px;
         }
     }
-        @media screen and (max-width:656px){
-        #menu a{
-            
-            font-size: 14px;
-        }
-        
-    }
-    @media screen and (max-width:579px){
+    @media screen and (max-width:656px){
         a,#menu, #menu a{
             display: block;
             padding-bottom: 0;
             padding-top: 0;
             border-left: none;
-            font-size: 16px;
+            font-size: 20px;
             }
     }
     
