@@ -141,20 +141,18 @@
     ***************************************/
     
     a.button{
-        background-color: lightblue;
         border-radius: 8px;
         appearence:button;
         border-style: none;
-        border-color: deepskyblue;
-        background-color: deepskyblue;
+        background-color: orangered;
         text-decoration: none;
         margin-bottom: 0em;
         font-size: 2em;
+        color: black;
         
     }
     a.button:hover {
-        background-color:darkblue;
-        border-color: darkblue;
+        background-color:orange;
         
     }
 .achievementname{
@@ -197,11 +195,11 @@
         text-align: center;
         margin:0;
         list-style-type: none;
-        color: white;
+        color: orange;
     }
     li{
         text-align: center;
-        color: white;
+        color: orange;
     }
     .e-img:hover{
         opacity: 0.5;
@@ -285,7 +283,7 @@
         width:auto;
         margin:0;
         border:0;
-        background-color: purple;
+        background-color: black;
         
         
     }
