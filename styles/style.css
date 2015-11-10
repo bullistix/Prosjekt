@@ -84,6 +84,10 @@
         margin-left:15%;
         background-color: white;
         }
+
+    #profile-text ul,li{
+    color: black;
+}
     @media screen and (max-width:1250px){
     
         table,td,tr{
@@ -167,9 +171,11 @@
         text-align: center;
         margin:0;
         list-style-type: none;
+        color: black;
     }
     li{
         text-align: center;
+        color: black;
     }
     .e-img:hover{
         opacity: 0.5;
@@ -255,15 +261,14 @@
         border:0;
         background-color: purple;
         
-        
     }
     #sub-menu ul,li{ 
-        color: white;
         float: center;
         text-align: center;
         margin-left:0;
         display: block;
         overflow: hidden;
+        color: white;
         
     }
     #footer{
