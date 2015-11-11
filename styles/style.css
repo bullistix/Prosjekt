@@ -116,7 +116,7 @@
     padding-top: 6em;
     padding-right: 8em;
 }
-    @media screen and (max-width:1250px){
+    @media screen and (max-width:10000px){
     
         .exercise-table, .ex-td,.ex-tr{
             display:inline-block;
