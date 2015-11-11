@@ -102,7 +102,6 @@
 #shared-images{
     text-align: center;
 }
-<<<<<<< HEAD
 #log{
     overflow: hidden;
     display: inline-block;
@@ -112,16 +111,6 @@
     padding-right: 8em;
 }
     @media screen and (max-width:1250px){
-=======
-    @media screen and (max-width:10000px){
-    
-        .exercise-table, .ex-td,.ex-tr{
-            display:inline-block;
-        }
-        
-    }
-@media screen and (max-width:1134px){
->>>>>>> origin/master
     
         .exercise-table, .ex-td,.ex-tr{
             display:inline-block;
@@ -308,7 +297,7 @@
     #sub-menu ul,li{ 
         float: center;
         text-align: center;
-        margin-left:-20px;
+        margin-left:0;
         display: block;
         overflow: hidden;
         
