@@ -103,7 +103,14 @@
 #shared-images{
     text-align: center;
 }
-    @media screen and (max-width:1250px){
+    @media screen and (max-width:10000px){
+    
+        .exercise-table, .ex-td,.ex-tr{
+            display:inline-block;
+        }
+        
+    }
+@media screen and (max-width:1134px){
     
         .exercise-table, .ex-td,.ex-tr{
             display:inline-block;
