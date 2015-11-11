@@ -21,7 +21,7 @@
         overflow:hidden;
         background-color: black;
         padding-bottom: 2em;
-        padding-top: 3em;
+        padding-top: 0em;
         } 
         #register{
         position:fixed;
@@ -37,26 +37,27 @@
         padding-top: 1em;
         font-size: 2em;
 }
-        #logo-register{
-        display:inline-block;
-        
-        
-        
-}
+
         #menu a{ 
         padding-left:5%;
         padding-right:5%;
         color: orange;
         text-decoration: none;
         text-align: center;
-        border-left: solid;
-        border-left-width: 1px;
+        border-right: solid;
+        border-right-width: 1px;
         font-size: 20px;
         
         }
         #menu a:hover{
         text-decoration: underline;
         }
+
+        #logo-header{
+        display:inline-block;
+            padding-top: 0.5em;
+    
+}
     
     /***************************************
     *
@@ -65,6 +66,18 @@
     *
     **************************************/
     
+   #logo-main{
+       width: 20em;
+       height: 18em;
+       margin-left: 13%;
+       margin-right: 15%;
+       margin-top: 5em;
+       display: inline-block;
+}
+
+
+
+
     #content{
         padding-top: 10em;
         text-align: center;
