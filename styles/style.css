@@ -116,21 +116,57 @@
         margin-right: 15%;
         margin-left:15%;
         background-color: white;
+        box-shadow: 1px 3px 4px 4px;
         }
 #profile-text li,ul{
     color:black;
 }
 #shared-images{
     text-align: center;
+    border-left: solid;
+    border-right:solid;
+    border-left-width: 1px;
+    border-right-width:1px;
+    margin-right: 15%;
+    margin-left:15%;
+    margin-bottom: 5%;
+    background-color: white;
+    box-shadow: 1px 3px 4px 4px;
 }
-#log{
-    overflow: hidden;
-    display: inline-block;
-    text-align: right;
-    float: right;
-    padding-top: 6em;
-    padding-right: 8em;
+#log-workout{
+    background-color: white;
+    border-left: solid;
+    border-right:solid;
+    border-left-width: 1px;
+    border-right-width:1px;
+    margin-right: 15%;
+    margin-left:15%;
+    box-shadow: 1px 3px 4px 4px;
+    text-align: center;
+    
 }
+#profile-challenges{
+    background-color: white;
+    border-left: solid;
+    border-right:solid;
+    border-left-width: 1px;
+    border-right-width:1px;
+    margin-left:15%;
+    margin-right: 55%;
+    box-shadow: 1px 3px 4px 4px;
+}
+#profile-progress{
+    background-color: white;
+    border-left: solid;
+    border-right:solid;
+    border-left-width: 1px;
+    border-right-width:1px;
+    margin-right: 15%;
+    margin-left:55%;
+    box-shadow: 1px 3px 4px 4px;
+    margin-top: -46px;
+}
+
     @media screen and (max-width:10000px){
     
         .exercise-table, .ex-td,.ex-tr{
@@ -182,22 +218,6 @@
         background-color:orange;
         
     }
-.achievementname{
-    border: 1px solid black;
-    width: 80%;
-    text-align: center;
-    height: fixed;
-    height: 2em;
-    margin-left: 10%;
-}
-.achievementbox{
-    border: 1px solid black;
-    width: 80%;
-    text-align: center;
-    height: fixed;
-    height: 96px;
-    margin-left:10%;
-}
     /**************************************
     *
     *
