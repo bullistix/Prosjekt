@@ -127,6 +127,7 @@
         display: inline-block;
         text-align: left;
         overflow: hidden;
+        padding-left: 2em;
     }
     #profile-content{
         padding-top: 7em;
@@ -140,9 +141,9 @@
         background-color: white;
         box-shadow: 1px 3px 4px 4px;
         }
-#profile-content h2{
+#profile-content h1{
     text-align: left;
-    padding-left: 6em
+    padding-left: 23%;
 }
 #profile-text li,ul{
     color:black;
@@ -249,8 +250,26 @@
             }
     }
 @media screen and (max-width:705px){
-        #main-content{
-            padding-top: 3em;
+        #main-content, #content{
+            padding-top: 30%;
+            }
+    }
+@media screen and (max-width:705px){
+        #profile-content{
+            padding-top: 35%;
+            display: inline-block;
+            }
+    }
+@media screen and (max-width:1119px){
+        #profile-text, ul, li{
+            font-size: 16px;
+            padding-left: 0;
+            }
+    }
+@media screen and (max-width:878px){
+        #profile-text, ul, li{
+            font-size: 16px;
+            padding-left: 15%;
             }
     }
 
@@ -346,8 +365,8 @@
     
     .rounded-profile{
         border-radius: 50%;
-        height: 10em;
-        width: 10em;
+        height: 15em;
+        width: 15em;
         overflow: hidden;
         text-align: center;
         margin-left: 18%;
