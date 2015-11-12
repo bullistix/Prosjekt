@@ -127,11 +127,8 @@
         display: inline-block;
         text-align: left;
         overflow: hidden;
-<<<<<<< HEAD
         padding-left: 2em;
-=======
         margin: 0;
->>>>>>> origin/master
     }
     #profile-content{
         padding-top: 7em;
@@ -198,7 +195,6 @@
 #feed p{
     border-style: solid;
     border border-width: 1px;
-    background-color: orangered;
 }
 #profile-challenges{
     background-color: white;
@@ -210,9 +206,6 @@
     margin-right: 55%;
     margin-top:2em;
     box-shadow: 1px 3px 4px 4px;
-}
-#profile-challenges div{
-    background-color: orangered;
 }
 #profile-progress{
     background-color: white;
