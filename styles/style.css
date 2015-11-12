@@ -469,18 +469,33 @@
     *
     **************************************/
     .chestbar{
-        background-color: black;
-        color: aqua;
+        background-color: darkgray;
+        color: green;
     }
     .chestbar::-moz-progress-bar{
         background-color: black;
-        color: aqua;
+        color: green;
     }
     .chestbar::-webkit-progress-value{
-        background: aqua;
+        background: green;
     }
     .chestbar::-webkit-progress-bar{
-        background-color: floralwhite;
+        background-color: darkgray;
+    }
+    
+    .swimbar{
+        background-color: darkgray;
+        color: yellow;
+    }
+    .swimbar::-moz-progress-bar{
+        background-color: darkgray;
+        color: yellow;
+    }
+    .swimbar::-webkit-progress-value{
+        background: yellow;
+    }
+    .swimbar::-webkit-progress-bar{
+        background-color: darkgray;
     }
     
     /***************************************
