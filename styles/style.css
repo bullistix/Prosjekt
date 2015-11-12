@@ -127,6 +127,7 @@
         display: inline-block;
         text-align: left;
         overflow: hidden;
+        margin: 0;
     }
     #profile-content{
         padding-top: 7em;
@@ -147,6 +148,7 @@
 #profile-text li,ul{
     color:black;
     text-align: left;
+    font-size: 20px;
 }
 #shared-images{
     text-align: center;
