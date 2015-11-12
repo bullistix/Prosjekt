@@ -229,7 +229,7 @@
 }
     @media screen and (max-width:10000px){
     
-        .exercise-table, .ex-td,.ex-tr{
+        .exercise-table, .ex-td,.ex-tr,.friend-table, .fr-td, .fr-tr{
             display:inline-block;
         }
         
