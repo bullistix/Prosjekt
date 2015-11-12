@@ -55,8 +55,7 @@
 
         #logo-header{
         display:inline-block;
-        padding-top: 1em;
-        height: 50px;
+        padding-top: 0.5em;
     
 }
     
@@ -68,6 +67,8 @@
     **************************************/
     
    #logo-main{
+       width: 25em;
+       height: 20em;
        margin-left: 0;
        margin-right: 0;
        margin-top: 1em;
@@ -90,6 +91,14 @@
         background-color: white;
         
     }
+    
+    @media screen and (max-width: 931px){
+    #content{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+    
     #content p {
         text-align: left;
         font-size: 20px;
@@ -101,6 +110,14 @@
         margin-right:25%;
         margin-top: 0em;   
     }
+    
+    @media screen and (max-width: 931px){
+    #main-content{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+    
     #profile-text{
         display: inline-block;
         text-align: center;
@@ -192,6 +209,60 @@
         
     
     /**************************************
+*
+*
+*achievements
+*
+***************************************/ 
+    
+.achievementname{
+    border: 1px solid black;
+    text-align: center;
+    height: fixed;
+    height: 2em;
+    font-weight: bold;
+}
+.achievementbox{
+    border: 1px solid black;
+    text-align: center;
+    height: fixed;
+    height: 4em;
+}
+.achievnav{
+    background-color: orange;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    width: 100%;
+}
+.achievnav a{
+    padding-left:6%;
+    padding-right: 6%;
+    text-decoration: none;
+    color: floralwhite;
+    display: inline-block;
+    transition: .5s background-color;
+    font-size: 20px;
+}
+.achievnav a:hover{
+    background-color: dimgray;
+}
+.achievnav a:active{
+     background-color: dimgray;  
+}
+
+@media screen and (max-width: 1051px){
+    .achievtrophy{
+       width: 200px !important;
+       height: 153px !important;    
+    }
+}
+@media screen and (max-width: 600px){
+    .achievtrophy{
+        display: none;
+    }
+}
+    
+    /**************************************
     *
     *
     *button
@@ -256,6 +327,16 @@
     h1,h2{
         text-align: center;
         }
+        
+        .achievements{
+    text-align: center;
+    font-size: 45px;
+}
+@media screen and (max-width:600px){
+ .achievements{
+  font-size: 24px;   
+ }
+}
     /**************************************
     *
     *
