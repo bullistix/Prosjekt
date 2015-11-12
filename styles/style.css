@@ -1,96 +1,127 @@
-body{
-    margin:0;
-    padding:0;
-    border:0;
-    background-color: gray;
+    body{
+        margin:0;
+        padding:0;
+        border:0;
+        background-color: darkgray;
+    }
+    /**********************************************
+    *
+    *               menu
+    *
+    ***********************************************/
+    
+        #menu{
+        position:fixed;
+        color:black;
+        width:100%;
+        padding:0;
+        margin:0;
+        display: block;
+        text-align: center;
+        overflow:hidden;
+        background-color: black;
+        padding-bottom: 2em;
+        padding-top: 0em;
+        } 
+        #register{
+        position:fixed;
+        color:black;
+        width:100%;
+        padding:0;
+        margin:0;
+        display: block;
+        text-align: center;
+        overflow:hidden;
+        background-color: black;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        font-size: 1.5em;
 }
-/**********************************************
-*
-*               menu
-*
-***********************************************/
 
-    #menu{
+        #menu a{ 
+        padding-left:5%;
+        padding-right:5%;
+        color: orange;
+        text-decoration: none;
+        text-align: center;
+        border-right: solid;
+        border-right-width: 1px;
+        font-size: 20px;
+        
+        }
+        #menu a:hover{
+        text-decoration: underline;
+        }
+
+        #logo-header{
+        display:inline-block;
+        padding-top: 0.5em;
+    
+}
+    
+    /***************************************
+    *
+    *
+    * content
+    *
+    **************************************/
+    
+   #logo-main{
+       width: 25em;
+       height: 20em;
+       margin-left: 0;
+       margin-right: 0;
+       margin-top: 1em;
+       display: inline-block;
+       overflow: hidden;
+}
+
+
+
+
+    #content{
+        padding-top: 10em;
+        text-align: center;
+        border-left: solid;
+        border-right:solid;
+        border-left-width: 1px;
+        border-right-width:1px;
+        margin-right: 15%;
+        margin-left:15%;
+        background-color: white;
+        
+    }
+    #content p {
+        text-align: left;
+        font-size: 20px;
+         
+    }
+    
+    #main-content{
+        margin-left: 25%;
+        margin-right:25%;
+        margin-top: 0em;   
+    }
+    #profile-text{
+        display: inline-block;
+        text-align: center;
+        overflow: hidden;
+    }
+    #profile-content{
+        padding-top: 10em;
+        border-left: solid;
+        border-right:solid;
+        border-left-width: 1px;
+        border-right-width:1px;
+        margin-right: 15%;
+        margin-left:15%;
+        background-color: white;
+        box-shadow: 1px 3px 4px 4px;
+        }
+#profile-text li,ul{
     color:black;
-    width:auto;
-    padding:0;
-    margin:0;
-    display: block;
-    text-align: center;
-    overflow: hidden;
-    background-color: purple;
-    padding-bottom: 2em;
-    padding-top: 3em;
-    } 
-
-    #menu a{ 
-    padding-left:5%;
-    padding-right:5%;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border-left: solid;
-    border-left-width: 1px;
-    font-size: 20px;
-    
-    }
-    #menu a:hover{
-    text-decoration: underline;
-    }
-/***************************************
-*
-*
-* footer menu
-*
-**************************************/
-
-#sub-menu{
-    color:black;
-    width:auto;
-    margin:0;
-    border:0;
-    text-align: center;
-    background-color: purple;
-    padding-top: 2em;
-    padding-bottom:6em;
-    
 }
-#sub-menu ul{ 
-    color: black;
-    text-align: center;
-    
-}
-#footer{
-    margin:auto;
-    border:auto;
-    bottom:auto;
-    display: block;
-    }
-#contactinfo{
-    float: left;
-    padding-left:10%;
-    padding-right: 18%;
-}
-
-#newsletter{
-    align-content:center;
-    float:left;
-    overflow: hidden;
-    
-}
-#partners{
-    float: right;
-    padding-right:15%;
-    overflow: hidden;
-}
-/***************************************
-*
-*
-* content
-*
-**************************************/
-
-#content{
+#shared-images{
     text-align: center;
     border-left: solid;
     border-right:solid;
@@ -98,98 +129,228 @@ body{
     border-right-width:1px;
     margin-right: 15%;
     margin-left:15%;
+    margin-bottom: 5%;
     background-color: white;
-    
+    box-shadow: 1px 3px 4px 4px;
 }
-#content p {
-    text-align: left;
-     
-}
-
-#main-content{
-    margin-left: 25%;
-    margin-right:25%;
-<<<<<<< HEAD
-    margin-top: 4em;
-    
-=======
->>>>>>> origin/master
-}
-#profile-text{
-    overflow: hidden;
-    display: inline-block;
-    padding-bottom: 1em;
-    text-align: none;
-}
-#profile-content{
+#log-workout{
+    background-color: white;
     border-left: solid;
     border-right:solid;
     border-left-width: 1px;
     border-right-width:1px;
     margin-right: 15%;
     margin-left:15%;
+    box-shadow: 1px 3px 4px 4px;
+    text-align: center;
+    
+}
+#profile-challenges{
     background-color: white;
+    border-left: solid;
+    border-right:solid;
+    border-left-width: 1px;
+    border-right-width:1px;
+    margin-left:15%;
+    margin-right: 55%;
+    box-shadow: 1px 3px 4px 4px;
+}
+#profile-progress{
+    background-color: white;
+    border-left: solid;
+    border-right:solid;
+    border-left-width: 1px;
+    border-right-width:1px;
+    margin-right: 15%;
+    margin-left:55%;
+    box-shadow: 1px 3px 4px 4px;
+    margin-top: -46px;
+}
+
+    @media screen and (max-width:10000px){
+    
+        .exercise-table, .ex-td,.ex-tr{
+            display:inline-block;
+        }
+        
     }
-
-/**************************************
-*
-*
-*button
-*
-***************************************/
-
-a.button{
-    background-color: lightblue;
-    font-size: 3em;
-    border-radius: 8px;
-    -webkitkit-appearence:button;
-    appearence:button;
-    border-style: solid;
-    border-color: gray;
-    background-color: gray;
-    text-decoration: none;
-    margin-bottom: 2em;
+    @media screen and (max-width:810px){
+        #menu a{
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width:656px){
+        a,#menu, #menu a{
+            display: block;
+            padding-bottom: 0;
+            padding-top: 0;
+            border-right: none;
+            font-size: 20px;
+            }
+    }
+ @media screen and (max-width:656px){
+        #register{
+            padding-bottom: 1em;
+            
+            }
+    }
     
-}
-a.button:hover {
-    background-color:coral;
-}
-/**************************************
-*
-*
-*bilder rounded
-*
-***************************************/
-.rounded{
-    border-radius: 50%;
-    height: 10em;
-    width: 10em;
-}
-
-.rounded-profile{
-    border-radius: 50%;
-    margin-left: 35%;
-    overflow: hidden;
-    display: inline-block;
-    height: 10em;
-    width: 10em;
-}
-ul{
-    text-align: center;
-    margin:0;
-    list-style-type: none;
-}
-li{
-    text-align: center;
-}
-/**************************************
-*
-*
-*headers
-*
-***************************************/
-h1,h2{
-    text-align: center;
+        
     
-}
-
+    /**************************************
+    *
+    *
+    *button
+    *
+    ***************************************/
+    
+    a.button{
+        border-radius: 8px;
+        appearence:button;
+        border-style: none;
+        background-color: orangered;
+        text-decoration: none;
+        font-size: 2em;
+        color: black;
+        
+    }
+    a.button:hover {
+        background-color:orange;
+        
+    }
+    /**************************************
+    *
+    *
+    *bilder rounded
+    *
+    ***************************************/
+    .rounded{
+        border-radius: 50%;
+        height: 10em;
+        width: 10em;
+    }
+    
+    .rounded-profile{
+        border-radius: 50%;
+        height: 10em;
+        width: 10em;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 18%;
+    }
+    ul{
+        text-align: center;
+        margin:0;
+        list-style-type: none;
+        color: orange;
+    }
+    li{
+        text-align: center;
+        color: orange;
+    }
+    .e-img:hover{
+        opacity: 0.5;
+        border-bottom: solid;
+    }
+    
+    /**************************************
+    *
+    *
+    *headers
+    *
+    ***************************************/
+    h1,h2{
+        text-align: center;
+        }
+    /**************************************
+    *
+    *
+    *diet-page
+    *
+    ***************************************/
+    #diet-content {
+        text-align: center;
+        border-left-width: 1px;
+        border-right-width:1px;
+        margin-right: 15%;
+        margin-left:15%;    
+        background-color:white;
+        text-align:left;
+        line-height: 1.4;
+    }
+    
+    #diet-article {
+        margin-left: 10%;
+        margin-right:10%;
+        margin-top: 4em;
+        padding-bottom: 10px;
+        font-size: 18px
+    }
+    
+    .head-title-article {
+        font-family:inherit;
+        font-size: 40px;
+        text-align: left;
+    }
+    #diettable {
+        margin-left: 15%;
+        margin-right:15%;
+        margin-top: 4em;
+        padding-bottom: 100px
+    }
+    .diet-p1 {
+        font-weight:bolder;
+        font-size: 19px;
+    }
+    .diet-h2 {
+        text-align: left;
+        font-size: 25px;
+    }
+    diet-table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+        
+        
+    }
+    th {
+        text-align: left;
+       
+    }
+    /***************************************
+    *
+    *
+    * footer menu
+    *
+    **************************************/
+    
+    #sub-menu{
+        width:auto;
+        margin:0;
+        border:0;
+        background-color: black;
+        
+        
+    }
+    #sub-menu ul,li{ 
+        float: center;
+        text-align: center;
+        margin-left:0;
+        display: block;
+        overflow: hidden;
+        
+    }
+    #footer{
+        margin:auto;
+        border:auto;
+        bottom:auto;
+        display:block;
+        }
+    /***************************************
+    *
+    *
+    * End
+    *
+    **************************************/
