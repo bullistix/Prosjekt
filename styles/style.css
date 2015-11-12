@@ -499,6 +499,22 @@
         background-color: darkgray;
     }
     
+    .jogbar{
+        background-color: darkgray;
+        color: red;
+    }
+    .jogbar::-moz-progress-bar{
+        background-color: darkgray;
+        color: red;
+    }
+    .jogbar::-webkit-progress-value{
+        background: red;
+    }
+    .jogbar::-webkit-progress-bar{
+        background-color: darkgray;
+    }
+    
+    
     /***************************************
     *
     *
