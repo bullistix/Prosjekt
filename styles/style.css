@@ -254,7 +254,7 @@
     color: floralwhite;
     display: inline-block;
     transition: .5s background-color;
-    font-size: 20px;
+    font-size: 16px;
 }
 .achievnav a:hover{
     background-color: dimgray;
