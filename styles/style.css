@@ -465,6 +465,28 @@
         text-align: left;
        
     }
+    
+    /***************************************
+    *
+    *
+    * progress bar
+    *
+    **************************************/
+    .chestbar{
+        background-color: black;
+        color: aqua;
+    }
+    .chestbar::-moz-progress-bar{
+        background-color: black;
+        color: aqua;
+    }
+    .chestbar::-webkit-progress-value{
+        background: aqua;
+    }
+    .chestbar::-webkit-progress-bar{
+        background-color: floralwhite;
+    }
+    
     /***************************************
     *
     *
