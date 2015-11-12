@@ -198,6 +198,7 @@
 #feed p{
     border-style: solid;
     border border-width: 1px;
+    background-color: orangered;
 }
 #profile-challenges{
     background-color: white;
@@ -209,6 +210,9 @@
     margin-right: 55%;
     margin-top:2em;
     box-shadow: 1px 3px 4px 4px;
+}
+#profile-challenges div{
+    background-color: orangered;
 }
 #profile-progress{
     background-color: white;
