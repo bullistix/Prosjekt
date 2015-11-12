@@ -253,7 +253,7 @@
     }
 @media screen and (max-width:705px){
         #main-content, #content{
-            padding-top: 30%;
+            padding-top: 11em;
             }
     }
 @media screen and (max-width:705px){
@@ -326,11 +326,7 @@
        height: 153px !important;    
     }
 }
-@media screen and (max-width: 600px){
-    .achievtrophy{
-        display: none;
-    }
-}
+
     
     /**************************************
     *
