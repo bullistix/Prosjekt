@@ -207,11 +207,10 @@
 }
 #feed p{
     text-align:left;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
-#feed h4{
-    text-align: left;
-    padding-left: 2em;
+#feed h2{
+    text-align: center;
 }
 #profile-challenges{
     background-color: white;
@@ -220,7 +219,7 @@
     border-left-width: 1px;
     border-right-width:1px;
     margin-left:15%;
-    margin-right: 55%;
+    margin-right: 52%;
     margin-top:2em;
     box-shadow: 1px 3px 4px 4px;
 }
@@ -231,7 +230,7 @@
     border-left-width: 1px;
     border-right-width:1px;
     margin-right: 15%;
-    margin-left:55%;
+    margin-left:52%;
     box-shadow: 1px 3px 4px 4px;
     margin-top:-21em;
 }
