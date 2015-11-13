@@ -300,6 +300,11 @@
     height: fixed;
     height: 4em;
 }
+
+.achievementbox p{
+    text-align: center;    
+}
+
 .achievnav{
     background-color: orange;
     padding-bottom: 2.5%;
