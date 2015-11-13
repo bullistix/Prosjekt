@@ -122,6 +122,7 @@
         margin-left: 15%;
     }
 }
+
     
     #profile-text{
         display: inline-block;
@@ -270,9 +271,9 @@
             }
     }
 @media screen and (max-width:878px){
-        #profile-text, ul, li{
+        #profile-text, ul, li, a{
             font-size: 16px;
-            padding-left: 15%;
+            padding-left: 0;
             }
     }
 
