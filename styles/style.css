@@ -198,8 +198,8 @@
     border-right-width:1px;
     margin-right: 1%;
     margin-left:72%;
-    margin-top:-23em;
-    padding-top: 0;
+    margin-top:-24em;
+    padding-top: 1em;
     padding-bottom: 0;
     box-shadow: 1px 3px 4px 4px;
     text-align: center;
@@ -207,7 +207,7 @@
 }
 #feed p{
     text-align:left;
-    margin-bottom: 4.65em;
+    margin-bottom: 4.655em;
 }
 #feed h4{
     text-align: left;
