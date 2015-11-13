@@ -86,12 +86,12 @@
         height:200px;
     }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:320px){
     #logo-main{
         width: fixed;
         height: fixed;
-        width: 100px;
-        height:100px;
+        width: 150px;
+        height:150px;
     }
 }
 
