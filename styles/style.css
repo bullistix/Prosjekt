@@ -131,6 +131,17 @@
         padding-left: 2em;
         margin: 0;
     }
+ #profile-text-left{
+        display: inline-block;
+        text-align: left;
+        overflow: hidden;
+        padding-left: 2em;
+        margin-top: 10em;
+        margin-bottom: 0;
+     padding-bottom: 0;
+     
+        margin: 0;
+    }
     #profile-content{
         padding-top: 7em;
         padding-bottom: 1em;
@@ -145,9 +156,14 @@
         }
 #profile-content h1{
     text-align: left;
-    padding-left: 23%;
+    padding-left: 10%;
 }
 #profile-text li,ul{
+    color:black;
+    text-align: left;
+    font-size: 20px;
+}
+#profile-text-left li,ul{
     color:black;
     text-align: left;
     font-size: 20px;
@@ -164,21 +180,7 @@
     background-color: white;
     box-shadow: 1px 3px 4px 4px;
 }
-#log-workout{
-    background-color: white;
-    border-left: solid;
-    border-right:solid;
-    border-left-width: 1px;
-    border-right-width:1px;
-    margin-right: 40%;
-    margin-left:40%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-top:1em;
-    box-shadow: 1px 3px 4px 4px;
-    text-align: center;
-    
-}
+
 #feed{
     background-color: white;
     border-left: solid;
@@ -255,6 +257,11 @@
     }
 @media screen and (max-width:705px){
         #main-content, #content{
+            padding-top: 11em;
+            }
+    }
+@media screen and (max-width:943px){
+        #profile-content{
             padding-top: 11em;
             }
     }
@@ -370,7 +377,7 @@
         width: 15em;
         overflow: hidden;
         text-align: center;
-        margin-left: 18%;
+        margin-left: 5%;
         ma
     }
     ul{
