@@ -442,21 +442,12 @@
     ***************************************/
     #diet-content {
         text-align: center;
-        border-left-width: 1px;
-        border-right-width:1px;
-        margin-right: 15%;
-        margin-left:15%;    
+        margin-right: 10%;
+        margin-left:10%;    
         background-color:white;
         text-align:left;
-        line-height: 1.4;
-    }
-    
-    #diet-article {
-        margin-left: 10%;
-        margin-right:10%;
-        margin-top: 4em;
-        padding-bottom: 10px;
-        font-size: 18px
+        line-height: 1.5;
+        font-family:serif;
     }
     
     .head-title-article {
@@ -497,8 +488,13 @@
             font-size: 14px;   
         }
     }
-
-.diet-button{
+    @media screen and (max-width:469px){
+        .head-title-article{
+            font-size: 30px;
+            margin-top: 2em;
+        }
+    }
+    .diet-button{
         font-weight:bolder;
         font-size: 15px;
     }
