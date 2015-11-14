@@ -1,6 +1,6 @@
        <!DOCTYPE html>
-<html lang="en-US">
-    <head>
+       <html lang="en-US">
+       <head>
         <title>Mealplan - Fitchallenge </title>
         <link rel="stylesheet" type="text/css" href="../styles/style.css"/>
         <meta charset="utf-8">
@@ -8,8 +8,8 @@
         <meta name="author" content="Fitchallenge">
         <meta name="keywords" content="exercise, challenges, social, motivation">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+       </head>
+       <body>
             <header>
                 <nav id="menu">
                 <nav id="logo-header">
@@ -32,7 +32,8 @@
                             <h2 class="diet-h2">Calorie Surplus</h2>
                             <p>A calorie surplus is a state in which you consume more calories than you burn leading to weight gain in the form of muscle or body fat. While a calorie surplus is required to gain weight, simply eating more only leads to unhealthy body fat. In order to gain muscle while gaining little to no fat, you must combine strength training with a calorie surplus diet. The addition calories you end up with, will be used to build muscle and store fat. It is not possible to build pure muscles without gaining fat, however, by following a surplus diet, it will help you gain a higher ratio of muscles.</p>                            
                             <h2 class="diet-h2">Avoid</h2>
-                            <p>What you should be avoiding while following a diet, are food/drinks that gives you poor nutrition balance, containing high level of calories from sugar and fat with a lack of healthy contributes. Other related habits such as smoking, lack of sleep and dehydration are some examples of ways to minimize the effects of a fitness diet. In order to reach a goal, it is highly beneficial to throw away such unhealthy habits while following a fitness goal.</p>
+                            <p>What you should be avoiding while following a diet, are food/drinks that gives you poor nutrition balance, containing high level of calories from sugar and fat with a lack of healthy contributes. Other related habits such as smoking, lack of sleep and dehydration are some examples of ways to minimize the effects of a fitness diet. In order to reach a goal, it is highly beneficial to throw away such unhealthy habits while following a fitness goal.</p><br>
+                            <p>Below you will see some examples of food listed as surplus or deficit, food with low fats and calories fits into the deficit list, while food containing healthy calories and fats are listed as surplus. the avoid list simply shows what you should be avoid while being in a diet. </p>  
                      </section>
                      <section id="diettable">
                             <table id ="diet-table" style="width:100%">
@@ -88,12 +89,13 @@
                               </tr>
                             </table>
                      </section>
-                     <form action="demo_form.asp" method="get" class="diet-button-text">
+                     <p id="diet-p"style="margin-top:2em">Down below we want you to answer some questions before you get our diet. Knowing your metabolism and fitnes goal, it will be possible to make diet specialized just for you! A new table will be available every Monday.</p>
+                     <form action="diet_form.asp" method="get" class="diet-button-text">
                             How often do you eat?<br></pre><input type="text"><br><br>
                             How often do you exsercise?<br><input type="text"><br><br>
                             What is your fitness goal?<br><input type="text"><br><br>
-                      <button type="submit" formaction="../pages/mealplan.html"formtarget="_self" class="diet-button" disable>Submit as Mustafe</button><br><br>       
-                      <button type="submit" formaction="../pages/profile.html"formtarget="_blank" class="diet-button" disable>This weeks diet table</button>  	
+                      <button type="submit" formaction="../pages/mealplan.html"formtarget="_self" class="diet-button" onclick="submitButton()">Submit as Mustafe</button><br><br>       
+                      <button type="submit" formaction="../pages/profile.html"formtarget="_blank" class="diet-button" disabled>This weeks diet table</button>  	
                       </form> 
                      
             </section>
@@ -111,4 +113,9 @@
                 </section>
         </div>   
     </body>
+    <script>
+        function submitButton() {
+            alert("Thank you for your submission , a new diet table will arrive next week!");
+        }
+    </script>
     </html>
