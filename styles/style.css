@@ -504,8 +504,7 @@
     }
     th, td {
         padding: 5px;
-        
-        
+        font-family: serif;
     }
     th {
         text-align: left;
