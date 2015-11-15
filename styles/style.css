@@ -30,7 +30,6 @@
         text-align: center;
         overflow:hidden;
         background-color: black;
-        padding-bottom: 2em;
         padding-top: 0em;
         }
 
@@ -48,6 +47,16 @@
         #menu a:hover{
         text-decoration: underline;
         }
+#mockup{
+    color:red;
+    background-color: white;
+    font-size 40px;
+    
+}
+#mockup a{
+    color:black;
+    border:solid;
+}
 
         #logo-header{
         display:inline-block;
