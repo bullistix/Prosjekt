@@ -158,6 +158,22 @@
     #profile-content{
         margin-right: 4em;
         margin-left: 4em;
+        margin-top: 4em;
+    }
+}
+@media screen and (max-width:581px){
+    #profile-content{
+        margin-top: 6em;
+    }
+}
+@media screen and (max-width:495px){
+    #profile-content{
+        margin-top: 8em;
+    }
+}
+@media screen and (max-width:403px){
+    #profile-content{
+        margin-top: 10em;
     }
 }
 #profile-content h1{
