@@ -47,15 +47,11 @@
         #menu a:hover{
         text-decoration: underline;
         }
-#mockup{
+#menu h1{
     color:red;
     background-color: white;
     font-size 40px;
     
-}
-#mockup a{
-    color:black;
-    border:solid;
 }
 
         #logo-header{
