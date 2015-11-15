@@ -32,21 +32,7 @@
         background-color: black;
         padding-bottom: 2em;
         padding-top: 0em;
-        } 
-        #register{
-        position:fixed;
-        color:black;
-        width:100%;
-        padding:0;
-        margin:0;
-        display: block;
-        text-align: center;
-        overflow:hidden;
-        background-color: black;
-        padding-bottom: 1em;
-        padding-top: 1em;
-        font-size: 1.5em;
-}
+        }
 
         #menu a{ 
         padding-left:5%;
@@ -113,6 +99,7 @@
         margin-right: 15%;
         margin-left:15%;
         background-color: white;
+        height: 100%;
         
     }
     
@@ -554,40 +541,3 @@
     .jogbar::-webkit-progress-bar{
         background-color: darkgray;
     }
-    
-    
-    /***************************************
-    *
-    *
-    * footer menu
-    *
-    **************************************/
-    
-    #sub-menu{
-        width:auto;
-        margin:0;
-        border:0;
-        background-color: black;
-        
-        
-    }
-    #sub-menu ul,li{ 
-        float: center;
-        text-align: center;
-        margin-left:0;
-        display: block;
-        overflow: hidden;
-        
-    }
-    #footer{
-        margin:auto;
-        border:auto;
-        bottom:auto;
-        display:block;
-        }
-    /***************************************
-    *
-    *
-    * End
-    *
-    **************************************/
