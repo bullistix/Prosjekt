@@ -154,6 +154,12 @@
         background-color: white;
         box-shadow: 1px 3px 4px 4px;
         }
+@media screen and (max-width:760px){
+    #profile-content{
+        margin-right: 4em;
+        margin-left: 4em;
+    }
+}
 #profile-content h1{
     text-align: left;
     padding-left: 10%;
@@ -197,6 +203,15 @@
     text-align: center;
     overflow:hidden;
 }
+@media screen and (max-width:760px){
+    #feed{
+        margin-top: 2em;
+        margin-right: 20%;
+        margin-left: 20%;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
 #feed p{
     text-align:left;
     margin-bottom: 4em;
@@ -215,6 +230,12 @@
     margin-top:2em;
     box-shadow: 1px 3px 4px 4px;
 }
+@media screen and (max-width:760px){
+    #profile-challenges{
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+}
 #profile-progress{
     background-color: white;
     border-left: solid;
@@ -225,6 +246,13 @@
     margin-left:52%;
     box-shadow: 1px 3px 4px 4px;
     margin-top:-21em;
+}
+@media screen and (max-width:760px){
+    #profile-progress{
+        margin-top: 3em;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
 }
 #friends{
     text-align: center;
